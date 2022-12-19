@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/texture_wallpaper"
+
+    android:weightSum="1">
+
+
+    <!--- CONTENIDO -->
+    <!--- Tabla General -->
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <!--- Tabla superior -->
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="0px">
+        </TableRow>
+
+        <!--- Tabla Central -->
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="0px">
+
+            <!--- Boton -->
+            <Button
+                android:id="@+id/btHome"
+                android:layout_width="650px"
+                android:layout_height="370px"
+                android:background="@drawable/title"
+                android:drawingCacheQuality="low"
+                android:onClick="closet"
+                android:padding="20px" />
+
+        </TableRow>
+
+
+        <!--- Tabla Inferior -->
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="0px">
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+
+</LinearLayout>

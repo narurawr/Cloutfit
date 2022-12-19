@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.NewClothesFragment">
+
+    <!--SCROLLVIEW (ELEMENTOS INFINITOS)-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imagePhoto_newclothes"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_alignEnd="@+id/textView"
+                android:layout_alignRight="@+id/textView"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="68dp"
+                android:src="@drawable/img_base"
+                android:contentDescription="todo" />
+
+            <Button
+                android:id="@+id/btPhotoAddClothes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="take imagen" />
+
+            <Button
+                android:id="@+id/btColorAddClothes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Change Color" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Id Clothes"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/idclothes_newclothes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Puntos"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name Clothes"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/nameclothes_newclothes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name DayNight"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/nameDaynight_newclothes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name Season"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/nameSeason_newclothes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="type"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name Occasion"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/nameOccasion_newclothes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INFO TYPE"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name Type"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/nameType_newclothes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INFO STYLE"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Id Style"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/idStyle_newclothes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cristian David Henao"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Id Color"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/idColor_newclothes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="NO COLOR"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name Texture"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/nameTexture_newclothes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btNewClothes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Add new clothing"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
